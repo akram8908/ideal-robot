@@ -1,0 +1,99 @@
+لإنشاء موقع إلكتروني باسم "أكرم الحميدي" وبواجهة ذات ألوان زرقاء وصفراء، إليك نموذج أولي بسيط بلغة HTML وCSS. هذا النموذج يمكن رفعه على أي استضافة لاحقًا:
+
+
+---
+
+✅ كود الموقع (صفحة رئيسية index.html):
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>أكرم الحميدي</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Tahoma', sans-serif;
+      background: #f0f8ff;
+      color: #333;
+    }
+
+    header {
+      background: linear-gradient(to right, #0057b8, #ffd700);
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #0057b8;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .main-content {
+      padding: 30px;
+      text-align: center;
+    }
+
+    footer {
+      background-color: #ffd700;
+      color: #000;
+      text-align: center;
+      padding: 15px;
+      position: relative;
+      bottom: 0;
+      width: 100%;
+    }
+
+    .button {
+      background-color: #0057b8;
+      color: white;
+      padding: 10px 20px;
+      margin-top: 20px;
+      border: none;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+
+    .button:hover {
+      background-color: #004399;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>مرحبًا بكم في موقع أكرم الحميدي</h1>
+  </header>
+
+  <nav>
+    <a href="#">الرئيسية</a>
+    <a href="#">من أنا</a>
+    <a href="#">الخدمات</a>
+    <a href="#">تواصل معنا</a>
+  </nav>
+
+  <div class="main-content">
+    <h2>من هو أكرم الحميدي؟</h2>
+    <p>أكرم الحميدي هو شخص يسعى للتميز ويقدم محتوى وخدمات رقمية متميزة عبر الإنترنت.</p>
+    <button class="button">تعرف أكثر</button>
+  </div>
+
+  <footer>
+    &copy; 2025 أكرم الحميدي - جميع الحقوق محفوظة
+  </footer>
+
+</body>
+</html>
+
+الألوان: الأزرق الأساسي #0057b8، الأصفر #ffd700.
+
